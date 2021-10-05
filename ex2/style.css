@@ -1,0 +1,89 @@
+ul {
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	overflow: hidden;
+ 	background-color: #333;
+}
+
+li {
+ 	float: left;
+ }
+ 
+li a {
+ 	display: block;
+ 	color: white;
+	text-align: center;
+ 	padding-top:14px;
+ 	padding-right:16px;
+ 	padding-left:14px;
+ 	padding-bottom:16px;
+ 
+
+ 	text-decoration: none;
+ }
+ 
+li a:hover {
+	background-color: #111;
+	}
+
+.card {
+	text-align:center;
+	background-color: #D7DADA;
+	border-radius: 15px;
+	margin: 1rem;
+	padding-bottom: 1rem;
+}
+
+.card:hover {
+	background-color: #111;
+	animation: harry-up .3s;
+	cursor: pointer; 
+	color: white;
+	}
+
+@keyframes harry-up {
+
+ 0%,
+ 100% {
+  transform: translateY(0);
+  }
+  
+  50% {
+   transform: translateY(-.4rem);
+   }
+}
+
+.IMPERIUS {
+	background-color:#D9B249 ;
+	
+}
+
+.ACCIO {
+	background-color: #3BBBBB;
+
+}
+
+.CRUCIATUS {
+	background-color:#75757A ;
+}
+
+.OPPUGNO {
+	background-color: #BB3BAD;
+
+}
+
+.PERICULUM {
+	background-color: #D94956;
+
+}
+
+.ALOHOMORA {
+	background-color:#2F60B0 ;
+
+}
+
+.hechizo-type {
+	width: 25%;
+	align: center;
+}
